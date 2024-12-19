@@ -1,0 +1,58 @@
+h1, p, td, tr {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: gray;
+    box-sizing: content-box;
+}
+p {
+    margin: 0;
+}
+table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #d3d3d3;}
+.nav {
+    margin: 1vw;
+    box-sizing: content-box;
+}
+a {
+    padding: 1vw;
+    color: blue;
+    text-decoration: none;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+.pageTitle {
+    background-color: #ffffff;
+    margin: 2vw 1vw 1vw 1vw;
+    border-bottom: solid gray 0.2vw;
+}
+.container {
+    width: 98vw;
+    padding: 0;
+    margin: 0;
+}
+.content {
+    margin: 1vw;
+}
+.left {
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    margin: 0.5%;
+    padding: 0.5%;
+    border: solid black 0.1vw;
+}
+.right {
+    float: right;
+    width: 49%;
+    box-sizing: border-box;
+    margin: 0.5%;
+    padding: 0.5%;
+    border: solid black 0.1vw;
+}
